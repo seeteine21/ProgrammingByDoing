@@ -1,18 +1,17 @@
-public class LetterToYourself.java
+public class LetterToYourself
 {
-    public static void main( String[] args )
-    {
-        // A comment, this is so you can read your program later.
-        // Anything after the // is ignored by Java.
-
-        System.out.println( "+---------------------------------------------------------+
-|                                                    #### |
-|                                                    #### |
-|                                                    #### |
-|                                                         |
-|                                                         |
-|                              Bill Gates                 |
-|                              1 Microsoft Way            |
-|                              Redmond, WA 98104          |
-|                                                         |
-+---------------------------------------------------------+" ); // and the comment after is ignored.
+	public static void main( String[] args )
+	{
+		System.out.println( "+­­­­­­­­­­­­­­-­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­+" );
+		System.out.println( "|                                                    #### |" );
+		System.out.println( "|                                                    #### |" );
+		System.out.println( "|                                                    #### |" );
+		System.out.println( "|                                                         |" );
+		System.out.println( "|                                                         |" );
+		System.out.println( "|                                Kyle Kelly               |" );
+		System.out.println( "|                                123 LearningItTheHard Way|" );
+		System.out.println( "|                                Sin City, NV 89148       |" );
+		System.out.println( "|                                                         |" );
+		System.out.println( "+---------------------------------------------------------+" );
+	}
+}
