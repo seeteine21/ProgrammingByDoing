@@ -1,5 +1,5 @@
 // Learning Java Blackjack with chips, no splitting
-// Kyle Kelly 8/20/2014
+// Kyle Kelly Aug 20 2014
 // Zappos Java Bootcamp 30 Day Project
 // kyleryankelly@gmail.com
 
