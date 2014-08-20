@@ -6,7 +6,7 @@
 import java.util.Scanner;
 
 
-public class BlackJack {
+public class Blackjack {
 
 	public static void main(String[] args) {
 
@@ -156,10 +156,10 @@ public class BlackJack {
                     System.out.println("You have total " + newGame.player.chips + " Chips!!");
                 }
                 else if (newGame.player.cardPoint < newGame.dealer.cardPoint) {
-                    System.out.println("Dealer has more points. Dealer won. Sorry, you just lost " + chipsBet + " Chips.");
+                    System.out.println("Dealer has more points. Dealer won. Sorry sucker, you just lost " + chipsBet + " Chips.");
                     newGame.player.chips -= chipsBet;
                     if (newGame.player.chips <= 0){
-                        System.out.println("Damn dude, you lost all chips." );
+                        System.out.println("Damn dude/dudette, you lost all your chips." );
                         }
                     else{
                         System.out.println("You have " + newGame.player.chips + " chips left. Good luck!" );        
@@ -190,7 +190,7 @@ public class BlackJack {
                 }
                 else {
                 	newGame.isGameOver = true;
-                        System.out.println("Nice, set and stick to your budget! Have a good day!");
+                        System.out.println("It's been a pleasure, go see a comedy show on the Strip to cheer you up!");
                 }
                 
         }
